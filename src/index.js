@@ -1,6 +1,9 @@
 // import _ from 'lodash';
 import './style.css';
 import Icon from './icon.jpg';
+import getApi from './modules/getApi.js';
+
+const content = document.querySelector('.main-container')
 
 function component() {
   // const element = document.createElement('div');
@@ -22,3 +25,5 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+export default content;
